@@ -1,0 +1,35 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules
+
+before_script:
+  - export CHROME_BIN=chromium-browser
+  - export DISPLAY=:99.0
+  - npm install
+
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  script:
+    - echo "Running react test suite......"
+    - node ./internals/scripts/generate-templates-for-linting
+    - npm test -- -u --maxWorkers=4
+
+deploy:
+  stage: deploy
+  script:
+    - npm run build
+  artifacts:
+    paths:
+    - build
+  only:
+    - master
+
+after_script:
+  - npm run coveralls
+

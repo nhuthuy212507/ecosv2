@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login Saga loginPage Saga should start task to watch for LOAD_REPOS action 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      Object {
+        "data": Object {
+          "password": "test",
+          "username": "test",
+        },
+        "method": "post",
+        "url": "/auth",
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "CALL",
+}
+`;
+
+exports[`login Saga loginPage Saga should start task to watch for LOAD_REPOS action 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "action": Object {
+      "error": [TypeError: Cannot read property 'token' of undefined],
+      "type": "app/LoginPage/LOGIN_ERROR",
+    },
+    "channel": undefined,
+  },
+  "type": "PUT",
+}
+`;

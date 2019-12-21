@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<sidebarLink /> should render and match the snapshot 1`] = `
+<a
+  class="sidebarLink__StyledLink-gs9h8q-0 jnfaer"
+  href="/test"
+>
+  <li
+    class="SideBarLink-u8n3ub-0 enzljv"
+  >
+    
+    <p
+      class="SideBarLinkTitle-cse4j8-0 ChVqR"
+    >
+      <span>
+        Dashboard
+      </span>
+    </p>
+  </li>
+</a>
+`;

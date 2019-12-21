@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideBarProvider /> should render and match the snapshot 1`] = `
+<div
+  class="Wrapper-sc-1kpiif2-0 fdqOuG"
+>
+  <button
+    class="ButtonBack-kz9yne-0 jcVvmn"
+  />
+  <section
+    class="Scrollbar-sc-177xb6a-0 cZXHHB"
+    data-scrollbar="true"
+    style="overflow: hidden; outline: none;"
+    tabindex="-1"
+  >
+    <div
+      class="scroll-content"
+    >
+      <div>
+        <div
+          class="SideBarDesktop-sc-172t9a6-0 efoupC"
+        >
+          <div
+            class="SideBarContent-sc-14u8wks-0 dtoZRh"
+          >
+            <ul
+              class="SideBarBlock-sc-1b6qjh3-0 fFUBet"
+            >
+              <a
+                class="sidebarLink__StyledLink-gs9h8q-0 jnfaer"
+                href="/dashboard"
+              >
+                <li
+                  class="SideBarLink-u8n3ub-0 enzljv"
+                >
+                  <span
+                    class="SideBarLinkIcon-fs5hl8-0 bxqexL"
+                  >
+                    <i
+                      aria-label="icon: area-chart"
+                      class="anticon anticon-area-chart"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class=""
+                        data-icon="area-chart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M888 792H200V168c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v688c0 4.4 3.6 8 8 8h752c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-616-64h536c4.4 0 8-3.6 8-8V284c0-7.2-8.7-10.7-13.7-5.7L592 488.6l-125.4-124a8.03 8.03 0 0 0-11.3 0l-189 189.6a7.87 7.87 0 0 0-2.3 5.6V720c0 4.4 3.6 8 8 8z"
+                        />
+                      </svg>
+                    </i>
+                  </span>
+                  <p
+                    class="SideBarLinkTitle-cse4j8-0 ChVqR"
+                  >
+                    <span>
+                      Dashboard
+                    </span>
+                  </p>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="SideBarMobile-sc-1jgbbp2-0 gnGJNg"
+        >
+          <div
+            class="SideBarContent-sc-14u8wks-0 dtoZRh"
+          >
+            <ul
+              class="SideBarBlock-sc-1b6qjh3-0 fFUBet"
+            >
+              <a
+                class="sidebarLink__StyledLink-gs9h8q-0 jnfaer"
+                href="/dashboard"
+              >
+                <li
+                  class="SideBarLink-u8n3ub-0 enzljv"
+                >
+                  <span
+                    class="SideBarLinkIcon-fs5hl8-0 bxqexL"
+                  >
+                    <i
+                      aria-label="icon: area-chart"
+                      class="anticon anticon-area-chart"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class=""
+                        data-icon="area-chart"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M888 792H200V168c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v688c0 4.4 3.6 8 8 8h752c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-616-64h536c4.4 0 8-3.6 8-8V284c0-7.2-8.7-10.7-13.7-5.7L592 488.6l-125.4-124a8.03 8.03 0 0 0-11.3 0l-189 189.6a7.87 7.87 0 0 0-2.3 5.6V720c0 4.4 3.6 8 8 8z"
+                        />
+                      </svg>
+                    </i>
+                  </span>
+                  <p
+                    class="SideBarLinkTitle-cse4j8-0 ChVqR"
+                  >
+                    <span>
+                      Dashboard
+                    </span>
+                  </p>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="scrollbar-track scrollbar-track-x"
+    >
+      <div
+        class="scrollbar-thumb scrollbar-thumb-x"
+      />
+    </div>
+    <div
+      class="scrollbar-track scrollbar-track-y"
+    >
+      <div
+        class="scrollbar-thumb scrollbar-thumb-y"
+      />
+    </div>
+  </section>
+</div>
+`;
